@@ -74,7 +74,7 @@ Storm topologies are often compared to Hadoop MapReduce jobs. But unlike Hadoop 
 Within a topology, spouts acquire the data which will go through a series of bolts. Each bolt is responsible for transforming or processing the data.  
 Some bolts may write the data into persistent databases or files while others may call third party APIs to transform data.
 
-![storm](imgs\storm.png)
+![storm](imgs/storm.png)
 
 Thanks to the open source ecosystem, there is a rich collection of spouts for popular data sources, which were created by the community.
 
